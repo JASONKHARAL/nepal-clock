@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #0b1726;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.clock-widget {
+  width: 100%;
+  max-width: 390px;
+  padding: 30px 25px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, #193b59, #10243a);
+  box-shadow: 0 20px 60px #0008;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #b9d8ef;
+}
+
+.time {
+  margin-top: 35px;
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: -3px;
+  font-variant-numeric: tabular-nums;
+}
+
+.ampm {
+  color: #8dc9e9;
+  font-size: 14px;
+  margin-top: -3px;
+}
+
+.english-date {
+  margin-top: 18px;
+  font-size: 17px;
+  color: #e0eaf5;
+}
+
+.line {
+  height: 1px;
+  background: #ffffff30;
+  margin: 28px 0;
+}
+
+.calendar-label {
+  color: #91c8e8;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.nepali-date {
+  margin-top: 15px;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.nepali-day {
+  margin-top: 8px;
+  color: #b9d8ef;
+  font-size: 15px;
+}
+
+.footer {
+  margin-top: 35px;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #91b6d1;
+}
